@@ -61,16 +61,23 @@ p {
 }
 
 /*--------------------main--------------------*/
-
+.section:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.about {
+    text-align: center;
+}
 .post, .about {
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 0;
 }
-.post-author img {
+.post-author img,
+.about-author img {
     width: 50px;
     height: 50px;
     vertical-align: middle;
+    border-radius: 50%;
 }
 .post-author span {
     margin-left: 16px;
