@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
 p {
     line-height: 1.5;
 }
+
 /*--------------------header--------------------*/
 .header {
     background-color: #1abc9c;
@@ -98,6 +99,10 @@ p {
 
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+.img-attachment {
+    max-width: 280px;
+    max-height: 100px;
 }
 
 /*--------------------footer--------------------*/
