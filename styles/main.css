@@ -6,6 +6,12 @@
 /*}*/
 
 /*--------------------body--------------------*/
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
 body {
     color: #555555;
     margin: 0 auto;
@@ -103,6 +109,39 @@ p {
 .img-attachment {
     max-width: 280px;
     max-height: 100px;
+}
+
+/*--------------------contact-us_form--------------------*/
+@media only screen and (min-width: 992px)
+.info-block .form-container {
+    padding-top: 60px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.po-container .info-block .form-container {
+    padding: 40px 0 130px;
+}
+.required {
+    padding-bottom: 25px;
+    font: 400 14px/1 Montserrat, sans-serif;
+}
+
+.input-container {
+    width: 48%;
+    margin-bottom: 28px;
+}
+.input-column {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+textarea {
+    z-index: auto;
+    position: relative;
+    line-height: normal;
+    font-size: 13px;
+    transition: none 0s ease 0s;
+    background: transparent;
 }
 
 /*--------------------footer--------------------*/

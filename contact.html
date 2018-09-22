@@ -19,30 +19,68 @@
     <main class="main">
         <section class="section">
             <div class="container">
-                <!--<h2>Section must contain with head</h2>-->
-                <div class="input-container">
-                    <label for="name">Your name</label>
-                    <br>
-                    <input type="text" name="your-name" value size="40" id="name" aria-required="true" aria-invalid="false">
-                </div>
-                <label for="email">Your email</label>
-                <div class="input-container">
-                    <input type="text" name="your-email" value size="40" id="email" aria-required="true" aria-invalid="false">
-                </div>
-                <div class="input-container">
+                <div class="form-block">
+                    <!--<h2>Section must contain with head</h2>-->
+                    <div class="form-container">
+                        <div class="required">*Required</div>
+                        <div class="input-column">
+                            <div class="input-container">
+                                <label for="name">Your name</label>
+                                <br>
+                                <input type="text" name="your-name" value size="40" id="name" aria-required="true" aria-invalid="false">
+                            </div>
+                            <div class="input-container">
+                                <label for="email">Your email</label>
+                                <br>
+                                <input type="text" name="your-email" value size="40" id="email" aria-required="true" aria-invalid="false">
+                            </div>
+                        </div>
 
-                </div>
-                <div class="input-container">
+                        <div class="input-column">
+                            <div class="input-container">
+                                <label for="phone">Phone number</label>
+                                <br>
+                                <input type="text" name="your-phone" value size="40" id="phone" aria-invalid="false">
+                            </div>
+                            <div class="input-container">
+                                <label for="subject">Subject</label>
+                                <br>
+                                <input type="text" name="your-subject" value size="40" id="subject" aria-invalid="false">
+                            </div>
+                        </div>
 
-                </div>
-                <div class="input-container">
+                        <div class="input-column">
+                            <div class="input-container">
+                                <label for="address">Street address</label>
+                                <br>
+                                <input type="text" name="your-street" value size="40" id="address" aria-invalid="false">
+                            </div>
+                        </div>
 
-                </div>
-                <div class="input-container">
+                        <div class="input-column">
+                            <div class="input-container">
+                                <label for="city">City</label>
+                                <br>
+                                <input type="text" name="your-city" value size="40" id="city" aria-invalid="false">
+                            </div>
+                            <div class="input-container">
+                                <label for="state">State or province</label>
+                                <br>
+                                <input type="text" name="your-state" value size="40" id="state" aria-invalid="false">
+                            </div>
+                            <div class="input-container">
+                                <label for="zip">Zip or postal code</label>
+                                <br>
+                                <input type="text" name="your-zip" value size="40" id="zip" aria-invalid="false">
+                            </div>
+                        </div>
 
-                </div>
-                <div class="input-container">
-
+                        <div class="input-container">
+                            <label for="message">Your message</label>
+                            <br>
+                            <textarea name="your-message" cols="40" rows="10" id="message" aria-invalid="false" spellcheck="true"></textarea>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
