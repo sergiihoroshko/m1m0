@@ -118,7 +118,28 @@ form {
     border-style: none;
     display: block;
 }
-
+.form-container {
+    padding-top: 60px;
+    padding-bottom: 5px;
+    width: 600px;
+}
+.form-container .input-container {
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+.form-container .required {
+    padding-bottom: 25px;
+    font: 400 14px/1 Montserrat, sans-serif;
+    color: #404040;
+}
+.form-container .half-block {
+    display: flex;
+    justify-content: space-between;
+}
+.form-container .country-block {
+    margin-right: 4%;
+    width: 48%;
+}
 textarea {
     z-index: auto;
     position: relative;
