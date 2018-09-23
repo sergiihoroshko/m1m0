@@ -112,7 +112,13 @@ p {
 }
 
 /*--------------------contact-us--------------------*/
-.contact-title .form {
+.contact-title {
+    text-align: center;
+    width: 95%;
+    -moz-text-align-last: center;
+    -webkit-text-size-adjust: auto;
+}
+.form {
     width: 50%;
     margin: 50px auto;
 }
