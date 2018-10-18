@@ -107,8 +107,13 @@ p {
     letter-spacing: 0.1em;
 }
 .img-attachment {
-    max-width: 280px;
-    max-height: 100px;
+/*    max-width: 280px;
+    max-height: 100px;*/
+    width: 300px;
+    transition: width 0.5s ease;
+}
+.attach-hover:hover img {
+    width: 800px;
 }
 
 /*--------------------contact-us--------------------*/
