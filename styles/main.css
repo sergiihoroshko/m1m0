@@ -177,6 +177,14 @@ textarea {
     transition: .3s ease;
 }
 
+.table {
+
+}
+
+.about-table {
+    margin-left: auto;
+    margin-right: auto;
+}
 /*--------------------footer--------------------*/
 .footer {
     background-color: #001f3f;
