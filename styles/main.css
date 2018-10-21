@@ -176,15 +176,20 @@ textarea {
     background-color: #555555;
     transition: .3s ease;
 }
-
+/*--------------------table--------------------*/
 .table {
-
+    display: table; /*table*/
+    width: auto;
+}
+.table-row {
+    display: table-row; /*tr*/
+    width:auto;
+}
+.table-cell {
+    display: table-cell; /*td*/
+    float:left;/*fix for  buggy browsers*/
 }
 
-.about-table {
-    margin-left: auto;
-    margin-right: auto;
-}
 /*--------------------footer--------------------*/
 .footer {
     background-color: #001f3f;
