@@ -1,10 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-/*html {*/
-    /*-webkit-text-size-adjust: 100%;*/
-    /*text-size-adjust:100%*/ /*https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust*/
-/*}*/
-
 /*--------------------body--------------------*/
 * {
     box-sizing: border-box;
@@ -18,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
     font-family: 'Montserrat', sans-serif;
 }
 a {
@@ -34,7 +27,6 @@ h1, h2, h3, h4 {
 p {
     line-height: 1.5;
 }
-
 /*--------------------header--------------------*/
 .header {
     background-color: #0074D9;
@@ -71,7 +63,6 @@ p {
     display: inline;
     padding-left: 20px;
 }
-
 /*--------------------main--------------------*/
 .main {
     flex-grow: 1;
@@ -82,7 +73,7 @@ p {
 .about {
     text-align: center;
 }
-.post, .about {
+.post, .about, .about-table {
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 0;
@@ -115,7 +106,6 @@ p {
 .attach-hover:hover img {
     width: 800px;
 }
-
 /*--------------------contact-us--------------------*/
 .contact-title {
     text-align: center;
@@ -178,18 +168,20 @@ textarea {
 }
 /*--------------------table--------------------*/
 .table {
-    display: table; /*table*/
-    width: auto;
+    display: table;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #666666;
+    text-align: center;
 }
 .table-row {
-    display: table-row; /*tr*/
-    width:auto;
+    display: table-row;
 }
-.table-cell {
-    display: table-cell; /*td*/
-    float:left;/*fix for  buggy browsers*/
+.table-cel {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #666666;
 }
-
 /*--------------------footer--------------------*/
 .footer {
     background-color: #001f3f;
